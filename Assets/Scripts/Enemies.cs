@@ -6,7 +6,7 @@ public class Enemies : MonoBehaviour
 
     //crear clase enemigo volador, este tiene la posibilidad de volar
 
-    public class FlyingEnemy : Enemy
+    public class FlyingEnemy : Enemies
     {
         void Volar()
         {
